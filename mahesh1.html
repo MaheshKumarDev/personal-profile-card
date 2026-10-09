@@ -71,12 +71,13 @@
     </ul>
 
     <a href="">Visit My Portfolio</a><br>
-    <button onclick="hello()">Show Message</button>
-    
+    <button   onclick="hello()">Show Message</button>
+    <p id="demo"></p>
     </div>
     <script>
       function hello() {
-        alert("Hello Iam Mahesh")
+      document.getElementById("demo").innerHTML = "Hello, welcome to my portfolio!";
+      document.getElementById("demo").style.color = "blue";
       }
     </script>
 </body>
